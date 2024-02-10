@@ -39,7 +39,8 @@
                     <!-- Intro -->
                     <section id="intro" class="wrapper style1 fullscreen fade-up">
                         <div class="inner" style="color:#E7DDC0;">
-                            <h1 style="color:#E7DDC0;"> Welcome to Long Lane Homes </h1>
+
+                            <h1 class="style1-al" style="color:#E7DDC0;"> Welcome to Long Lane Homes </h1>
                             <p>Your trusted partner in seamless property transactions. We specialize in fast, fair, and flexible property purchasing to meet your needs.<br />
                                 Discover how we can transform your property selling experience with our straightforward approach.</p>
                             <ul class="actions">
