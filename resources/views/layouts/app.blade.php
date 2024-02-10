@@ -22,6 +22,17 @@
 <script src="{{ asset('js/script.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 
+<!-- CSS -->
+<link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+
+<!-- JavaScript -->
+<script src="{{ asset('assets/js/script.js') }}"></script>
+
+<!-- Images -->
+<img src="{{ asset('assets/images/logo.png') }}" alt="Logo">
+
+<!-- Webfonts -->
+<link rel="stylesheet" href="{{ asset('assets/webfonts/font.css') }}">
 
 </body>
 </html>
