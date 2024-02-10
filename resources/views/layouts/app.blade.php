@@ -22,26 +22,15 @@
 <script src="{{ asset('js/script.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 
-<!-- CSS -->
-<link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
-
-<!-- JavaScript -->
-<script src="{{ asset('assets/js/script.js') }}"></script>
-
-<!-- Images -->
-<img src="{{ asset('assets/images/logo.png') }}" alt="Logo">
-
-<!-- Webfonts -->
-<link rel="stylesheet" href="{{ asset('assets/webfonts/font.css') }}">
 
 </body>
 </html>
 
 
-{{--<head>--}}
-{{--    <title>Story by HTML5 UP</title>--}}
-{{--    <meta charset="utf-8" />--}}
-{{--    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />--}}
-{{--    <link rel="stylesheet" href="assets/css/main.css" />--}}
-{{--    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>--}}
-{{--</head>--}}
+<head>
+    <title>Story by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
