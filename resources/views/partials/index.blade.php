@@ -9,6 +9,9 @@
 {{--		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>--}}
         <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />
         <noscript><link rel="stylesheet" href="{{ asset('assets/css/noscript.css') }}" /></noscript>
+        <link rel="stylesheet" href="{{ asset('path/to/fontawesome-all.min.css') }}">
+
+
 
     </head>
 	<body class="is-preload">
@@ -190,13 +193,7 @@
 			</footer>
 
 		<!-- Scripts -->
-{{--			<script src="assets/js/jquery.min.js"></script>--}}
-{{--			<script src="assets/js/jquery.scrollex.min.js"></script>--}}
-{{--			<script src="assets/js/jquery.scrolly.min.js"></script>--}}
-{{--			<script src="assets/js/browser.min.js"></script>--}}
-{{--			<script src="assets/js/breakpoints.min.js"></script>--}}
-{{--			<script src="assets/js/util.js"></script>--}}
-{{--			<script src="assets/js/main.js"></script>--}}
+
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
         <script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
