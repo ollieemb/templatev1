@@ -7,7 +7,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
+        <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />
+        <noscript><link rel="stylesheet" href="{{ asset('assets/css/noscript.css') }}" /></noscript>
+
+    </head>
 	<body class="is-preload">
 
 		<!-- Sidebar -->
@@ -29,7 +32,6 @@
 
                 <!-- Wrapper -->
                 <div id="wrapper">
-
 
                     <!-- Intro -->
                     <section id="intro" class="wrapper style1 fullscreen fade-up">
@@ -195,6 +197,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+        <script src="{{ asset('js/jquery.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
+        <script src="{{ asset('js/browser.min.js') }}"></script>
+        <script src="{{ asset('js/breakpoints.min.js') }}"></script>
+        <script src="{{ asset('js/util.js') }}"></script>
+        <script src="{{ asset('js/main.js') }}"></script>
 
 	</body>
 </html>
