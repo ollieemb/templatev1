@@ -40,11 +40,10 @@
                     <section id="intro" class="wrapper style1 fullscreen fade-up">
                         <div class="inner" style="color:#E7DDC0;">
 
-                            <h1 class="style1-al" style="color:#E7DDC0;"> Welcome to Long Lane Homes </h1>
-                            <p>Your trusted partner in seamless property transactions. We specialize in fast, fair, and flexible property purchasing to meet your needs.<br />
-                                Discover how we can transform your property selling experience with our straightforward approach.</p>
+                            <h1 class="style1-al" style="color:#E7DDC0;">{{ config('content.intro_heading') }}</h1>
+                            <p>{{ config('content.intro_text') }}</p>
                             <ul class="actions">
-                                <li><a href="#one" class="button scrolly">Discover Our Services</a></li>
+                                <li><a href="#one" class="button scrolly">{{ config('content.intro_action') }}</a></li>
                             </ul>
                         </div>
                     </section>
@@ -52,23 +51,23 @@
                     <!-- One -->
                     <section id="one" class="wrapper style2 spotlights">
                         <section>
-                            <a href="#" class="image"><img src="{{ asset('assets/images/goldfill-logo.svg') }}" alt="" data-position="top center" /></a>
+                            <a href="#" class="image"><img src="{{ asset(config('content.one_image_1')) }}" alt="" data-position="top center" /></a>
                             <div class="content">
                                 <div class="inner">
-                                    <h2>Effortless Selling Process</h2>
-                                    <p>Experience a hassle-free selling process with LLH. We handle all the complexities, ensuring a smooth and efficient transaction from start to finish.</p>
+                                    <h2>{{ config('content.one_heading_1') }}</h2>
+                                    <p>{{ config('content.one_text_1') }}</p>
                                     <ul class="actions">
-                                        <li><a href="generic.html" class="button">Learn More</a></li>
+                                        <li><a href="generic.html" class="button">{{ config('content.one_action_1') }}</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </section>
                         <section>
-                            <a href="#" class="image"><img src="{{ asset('assets/images/temp-images/spot1.svg') }}" alt="" data-position="top center" /></a>
+                            <a href="#" class="image"><img src="{{ asset(config('content.one_image_2')) }}" alt="" data-position="top center" /></a>
                             <div class="content">
                                 <div class="inner">
-                                    <h2>Instant Offers</h2>
-                                    <p>Get a fair and competitive offer for your property within 24 hours. Our transparent evaluation process ensures you receive the best value.</p>
+                                    <h2>{{ config('content.one_heading_2') }}</h2>
+                                    <p>{{ config('content.one_text_2') }}</p>
                                     <ul class="actions">
                                         <li><a href="generic.html" class="button">Find Out How</a></li>
                                     </ul>
@@ -76,11 +75,11 @@
                             </div>
                         </section>
                         <section>
-                            <a href="#" class="image"><img src="{{ asset('assets/images/temp-images/spot3.svg') }}" alt="" data-position="top center" /></a>
+                            <a href="#" class="image"><img src="{{ asset(config('content.one_image_3')) }}" alt="" data-position="top center" /></a>
                             <div class="content">
                                 <div class="inner">
-                                    <h2>Flexible Closing Dates</h2>
-                                    <p>Choose a closing date that works for you. Whether you need to sell fast or prefer to wait, we accommodate your schedule.</p>
+                                    <h2>{{ config('content.one_heading_3') }}</h2>
+                                    <p>{{ config('content.one_text_3') }}</p>
                                     <ul class="actions">
                                         <li><a href="generic.html" class="button">Learn More</a></li>
                                     </ul>
@@ -92,28 +91,29 @@
                     <!-- Two -->
                     <section id="two" class="wrapper style3 fade-up">
                         <div class="inner">
-                            <h2>Why Choose LLH?</h2>
-                            <p>At LLH Properties, we're dedicated to offering a personalized and stress-free property selling experience. Our team of experts is here to support you every step of the way.</p>
+                            <h2>{{ config('content.two_heading') }}</h2>
+                            <p>{{ config('content.two_text') }}</p>
                             <div class="features">
                                 <section>
                                     <span class="icon solid major fa-home"></span>
-                                    <h3>Comprehensive Support</h3>
-                                    <p>From valuation to closing, enjoy a full range of services designed to make your property sale as smooth and successful as possible.</p>
+                                    <h3>{{ config('content.two_home') }}</h3>
+                                    <p>{{ config('content.two_home-text') }}</p>
                                 </section>
                                 <section>
                                     <span class="icon solid major fa-thumbs-up"></span>
-                                    <h3>No Hidden Fees</h3>
-                                    <p>Transparency is at the heart of what we do. With LLH, there are no hidden costs or unexpected charges.</p>
+                                    <h3>{{ config('content.two_thumbsUp') }}</h3>
+                                    <p>{{ config('content.two_thumbsUp-text') }}</p>
                                 </section>
                                 <section>
                                     <span class="icon solid major fa-handshake"></span>
-                                    <h3>Trusted Expertise</h3>
-                                    <p>Benefit from our extensive market knowledge and expertise to get the best deal for your property.</p>
+                                    <h3>{{ config('content.two_handshake') }}</h3>
+                                    <p>{{ config('content.two_handshake-text') }}</p>
                                 </section>
                                 <section>
                                     <span class="icon solid major fa-comments"></span>
-                                    <h3>Open Communication</h3>
-                                    <p>We believe in keeping you informed and involved throughout the selling process, ensuring a partnership based on trust.</p>
+                                    <h3>{{ config('content.two_comments') }}</h3>
+                                    <p>{{ config('content.two_comments-text') }}</p>
+
                                 </section>
                             </div>
                             <ul class="actions">
@@ -123,11 +123,12 @@
                     </section>
                 </div>
 
+
                 <!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+                            <h2>{{ config('content.three_heading') }}</h2>
+                            <p>{{ config('content.three_text') }}</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -152,20 +153,20 @@
 								</section>
 								<section>
 									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>Matt Aspen Grange<br />
-											Manchester, Cheshire<br />
-											England</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>0161-000000</span>
-										</li>
+                                        <li>
+                                            <h3>Address</h3>
+                                            <span>{{ config('content.contact_name') }}</span>
+                                            <span>{{ config('content.contact_address') }}</span>
+
+                                        </li>
+                                        <li>
+                                            <h3>Email</h3>
+                                            <span>{{ config('content.contact_email') }}</span>
+                                        </li>
+                                        <li>
+                                            <h3>Phone</h3>
+                                            <span>{{ config('content.contact_phone') }}</span>
+                                        </li>
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
